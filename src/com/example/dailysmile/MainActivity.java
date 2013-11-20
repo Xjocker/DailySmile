@@ -9,9 +9,8 @@ import android.view.Menu;
 import android.content.Intent;
 
 
-
-
 public class MainActivity extends Activity {
+
 
 	@Override
 	protected void onCreate(Bundle savedInstanceState) {
@@ -28,12 +27,13 @@ public class MainActivity extends Activity {
 	        	
 	        	//Start the second activity GetTimeActivity
 	            Intent intent = new Intent(MainActivity.this, GetTimeActivity.class);
+
+	    	    
 	            startActivity(intent);  
 	            finish(); //To exit the app if we click on back button in the second activity so it finishes the fist activity directly
 	        }
 	    }, DELAY);
-
-
+	    
 	    
 	    
 		

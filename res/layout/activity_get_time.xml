@@ -17,11 +17,31 @@
         android:text="DigitalClock" />
 
     <TimePicker
-        android:id="@+id/timePicker1"
+        android:id="@+id/time"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_below="@+id/digitalClock1"
         android:layout_centerHorizontal="true"
         android:layout_marginTop="101dp" />
+
+    <Button
+        android:id="@+id/button1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/time"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="46dp"
+        android:text="joke time" />
+
+    <TextView
+        android:id="@+id/textView1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/digitalClock1"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="32dp"
+        android:text="When do you like to laugh?"
+        android:textColor="#142500"
+        android:textAppearance="?android:attr/textAppearanceLarge" />
   
 </RelativeLayout>
